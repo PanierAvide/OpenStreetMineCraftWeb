@@ -47,6 +47,8 @@ include_once("page_struct.php");
 
 		<h3 class="type-headings">Interface web</h3>
 		<dl class="dl-horizontal">
+			<dt>Projet</dt>
+			<dd><a href="https://github.com/PanierAvide/OpenStreetMineCraftWeb">Page du projet GitHub</a></dd>
 			<dt>Licence</dt>
 			<dd><a href="https://gnu.org/licenses/gpl.html">GNU General Public License 3.0</a></dd>
 			<dt>Inclus<dt>

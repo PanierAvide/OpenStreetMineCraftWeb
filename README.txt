@@ -5,6 +5,7 @@ OpenStreetMineCraft is a tool to convert OpenStreetMap data into Minecraft maps.
 * OpenStreetMineCraft Web: the web interface for the previous tool, the piece of software you're installing
 
 The web interface allows users to create maps, see last created maps, and know a little more about the project.
+For a demo instance, you can go here: https://osmc.pavie.info/
 
 == Libraries ==
 The web interface uses these libraries :
