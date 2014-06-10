@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<mcobject name="Bridge part" version="1">
+	<mcx val="0">
+		<mcz val="0">
+			<mcy val="3" block="stone" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="3" block="stone" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="3" block="stone" />
+		</mcz>
+	</mcx>
+	<mcx val="1">
+		<mcz val="0">
+			<mcy val="3" block="stone" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="stone" />
+			<mcy val="1" block="stone" />
+			<mcy val="2" block="stone" />
+			<mcy val="3" block="stone" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="3" block="stone" />
+		</mcz>
+	</mcx>
+	<mcx val="2">
+		<mcz val="0">
+			<mcy val="3" block="stone" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="3" block="stone" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="3" block="stone" />
+		</mcz>
+	</mcx>
+</mcobject>

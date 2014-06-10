@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<mcobject name="Street light" version="1">
+	<mcx val="0">
+		<mcz val="0">
+			<mcy val="0" block="stone" />
+			<mcy val="1" block="fence" />
+			<mcy val="2" block="fence" />
+			<mcy val="3" block="glowstone" />
+		</mcz>
+	</mcx>
+</mcobject>

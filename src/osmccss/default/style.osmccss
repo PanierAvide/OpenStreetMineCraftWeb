@@ -1,0 +1,668 @@
+/* General style information */
+meta {
+	author: "Adrien PAVIE";
+	title: "OpenStreetMineCraft MapCSS example";
+	shorttitle: "OpenStreetMineCraft";
+	version: "0.0.1";
+}
+
+/* Tip: way = ways (closed or not), line = not closed way, area = closed way */
+
+/*
+ * Landuse
+ */
+/*area[landuse=farm], area[landuse=farmland], area[landuse=allotments] {
+	fill-bottom: farmland;
+}*/
+
+area[landuse=forest], area[natural=wood], area[landuse=orchard] {
+	/* object: url('tree.mcobj') 8; */
+	fill-object: url('tree.mcobj') 3;
+	offset-height: 1;
+}
+
+area[landuse=basin] {
+	block: iron;
+	fill-bottom: water;
+}
+
+area[landuse=railway] {
+	block: cobblestone;
+	fill-bottom: gravel;
+}
+
+area[landuse=recreation_ground], area[leisure=playground] {
+	block: wood;
+	fill-bottom: sand;
+}
+
+/*
+ * Water
+ */
+line[waterway] {
+	block: water;
+	width: 3;
+}
+
+area[waterway], area[natural=water], area[landuse=reservoir], area[water],
+area[landuse=salt_pond] {
+	block: water;
+	fill-bottom: water;
+}
+
+/*
+ * Highway
+ */
+/* Blocks */
+*[highway] {
+	block: stone;
+}
+
+area[highway] {
+	width: 1;
+	block: stone;
+	fill-bottom: stone;
+}
+
+line[highway=track], line[highway=path], line[highway=footway],
+  line[highway=bridleway], line[highway=cycleway] {
+	block: soulsand;
+}
+
+line[highway=escape] {
+	block: sand;
+	width: 3;
+}
+
+area[highway=escape] {
+	block: sand;
+	width: 1;
+	fill-bottom: sand;
+}
+
+/* Width */
+line[highway] {
+	width: 4;
+}
+
+line[highway=motorway], line[highway=trunk], line[highway=primary],
+line[highway=secondary], line[highway=tertiary], line[highway=unclassified], line[highway=residential] {
+	width: 6;
+}
+
+line[highway=track], line[highway=path], line[highway=footway],
+  line[highway=bridleway], line[highway=cycleway] {
+	width: 2;
+}
+
+/* Bridges and tunnels */
+line[highway][bridge=yes] {
+	block: none;
+	object: url('bridge.mcobj');
+	offset-height: 1;
+}
+
+line[highway][tunnel=yes] {
+	block: none;
+	object: url('tunnel2.mcobj');
+	offset-height: -5;
+}
+
+/* Others */
+node[highway=turning_circle] {
+	width: 8;
+}
+
+*[highway][lit=yes], node[highway=street_lamp] {
+	object: url('street_light.mcobj') 10;
+}
+
+*[highway][winter_road=yes] {
+	block: snow;
+}
+
+area[highway][winter_road=yes] {
+	width: 1;
+	block: snow;
+	fill-bottom: snow;
+}
+
+/*
+ * Aeroways
+ */
+area[aeroway=apron], area[aeroway=helipad] {
+	fill-bottom: stone;
+}
+
+node[aeroway=helipad] {
+	object: url('helipad.mcobj');
+}
+
+line[aeroway=runway] {
+	block: stone;
+	width: 20;
+}
+
+area[aeroway=runway] {
+	fill-bottom: stone;
+}
+
+line[aeroway=taxiway] {
+	block: stone;
+	width: 10;
+}
+
+area[aeroway=terminal] {
+	roof: metal;
+	block: glass;
+	fill-bottom: wool;
+	levels: 1;
+	windowed: no;
+	level-height: 10;
+}
+
+area[aeroway=hangar] {
+	block: metal;
+	width: 1;
+	levels: 1;
+	level-height: 7;
+	roof: coal;
+	windowed: 3 3;
+	fill-bottom: stone;
+}
+
+/*
+ * Buildings
+ */
+/* General definition (corresponding to house) */
+area[building] {
+	block: endstone;
+	width: 1;
+	levels: 2; /* Default value if building:levels is not set */
+	level-height: 3;
+	fill-bottom: wooden_plank;
+	roof: nether_brick;
+	windowed: 3 2; /* Values: yes (value 2 1), x y (where x = windows rows, y = spaces between windows) */
+	windowed-roof: 1 3;
+}
+
+area[building][wall=no] {
+	levels: 1;
+	windowed: 1 2;
+	windowed-roof: no;
+}
+
+/* Default values for typical buildings */
+area[building=industrial], area[building=retail] {
+	block: iron;
+	levels: 1;
+	level-height: 10;
+	roof: coal;
+	windowed: 3 6;
+}
+
+area[building=commercial] {
+	block: iron;
+	levels: 4;
+	level-height: 3;
+	roof: coal;
+	windowed: 3 6;
+}
+
+area[building=roof] {
+	block: none;
+	levels: 1;
+	level-height: 5;
+	roof: iron;
+	windowed: no;
+}
+
+area[building=apartments], area[building=dormitory], area[building=hotel] {
+	block: endstone;
+	levels: 4;
+	level-height: 3;
+	roof: nether_brick;
+	windowed: 3 6;
+}
+
+area[building=warehouse] {
+	block: iron;
+	levels: 1;
+	level-height: 8;
+	roof: coal;
+	windowed: 3 10;
+}
+
+area[building=cathedral], area[building=chapel], area[building=church], area[amenity=place_of_worship] {
+	block: cobblestone;
+	levels: 2;
+	level-height: 6;
+	roof: nether_brick;
+	windowed: 2 4;
+	windowed-roof: no;
+}
+
+area[building=hospital] {
+	block: endstone;
+	levels: 10;
+	level-height: 3;
+	roof: coal;
+	windowed: 2 3;
+}
+
+area[building=school] {
+	block: endstone;
+	levels: 3;
+	level-height: 3;
+	roof: nether_brick;
+	windowed: 3 2;
+}
+
+area[building=university] {
+	block: endstone;
+	levels: 5;
+	level-height: 3;
+	roof: nether_brick;
+	windowed: 3 2;
+}
+
+area[building=barn], area[building=cowshed], area[building=stable] {
+	block: wooden_plank;
+	levels: 1;
+	level-height: 4;
+	roof: nether_brick;
+	windowed: no;
+}
+
+area[building=bunker] {
+	block: obsidian;
+	levels: 1;
+	level-height: 3;
+	roof: obsidian;
+	windowed: no;
+}
+
+area[building=cabin], area[building=hut] {
+	block: wooden_plank;
+	levels: 1;
+	level-height: 3;
+	roof: nether_brick;
+	windowed: 2 2;
+}
+
+area[building=shed], area[building=farm_auxiliary] {
+	block: wooden_plank;
+	levels: 1;
+	level-height: 2;
+	roof: nether_brick;
+	windowed: 1 4;
+}
+
+area[building=garage], area[building=garages] {
+	block: endstone;
+	levels: 1;
+	level-height: 3;
+	roof: nether_brick;
+	windowed: no;
+}
+
+area[building=greenhouse] {
+	block: glass;
+	levels: 1;
+	level-height: 3;
+	roof: glass;
+	windowed: no;
+}
+
+area[building=transformer_tower] {
+	block: brick;
+	levels: 2;
+	level-height: 3;
+	roof: nether_brick;
+	windowed: no;
+}
+
+/* Building material */
+area[building][building:material=plaster] {
+	block: endstone;
+}
+
+area[building][building:material=brick] {
+	block: bricks;
+}
+
+area[building][building:material=wood] {
+	block: wooden_plank;
+}
+
+area[building][building:material=concrete] {
+	block: clay;
+}
+
+area[building][building:material=glass] {
+	block: glass;
+}
+
+area[building][building:material=stone] {
+	block: stone;
+}
+
+area[building][building:material=sandstone] {
+	block: sandstone;
+}
+
+area[building][building:material=metal] {
+	block: iron;
+}
+
+/* Roof material */
+area[building][roof:material=roof_tiles], area[building][roof:material=tile] {
+	roof: clay_hardened;
+}
+
+area[building][roof:material=concrete] {
+	roof: clay;
+}
+
+area[building][roof:material=glass] {
+	roof: glass;
+}
+
+area[building][roof:material=slate] {
+	roof: nether_brick;
+}
+
+area[building][roof:material=stone] {
+	roof: stone;
+}
+
+area[building][roof:material=tar_paper], area[building][roof:material=eternit] {
+	roof: coal;
+}
+
+area[building][roof:material=grass] {
+	roof: grass;
+}
+
+area[building][roof:material=gravel] {
+	roof: cobblestone;
+}
+
+area[building][roof:material=wood] {
+	roof: wooden_plank;
+}
+
+area[building][roof:material=metal] {
+	roof: metal;
+}
+
+area[building][roof:material=thatch] {
+	roof: wood;
+}
+
+area[building][roof:material=plants] {
+	roof: vines;
+}
+
+/* Doors */
+node[addr:housenumber], node[entrance], node[building=entrance] {
+	block: door_wood;
+	offset-height: 1;
+}
+
+/*
+ * Amenities
+ */
+area[amenity=parking], area[amenity=marketplace] {
+	fill-bottom: stone_bricks;
+	block: stone_bricks;
+	width: 1;
+	levels: 1;
+	level-height: 0;
+	roof: no;
+	windowed: no; 
+}
+
+area[amenity=shelter] {
+	fill-bottom: stone;
+	block: wooden_plank;
+	levels: 1;
+	level-height: 2;
+	roof: wooden_plank;
+	windowed: no;
+}
+
+node[amenity=bbq], node[man_made=kiln] {
+	block: furnace;
+	width: 1;
+	offset-height: 1;
+}
+
+area[amenity=bbq] {
+	block: iron;
+	fill-bottom: lava;
+	offset-height: 1;
+}
+
+node[amenity=drinking_water], node[amenity=fountain], node[amenity=water_point] {
+	object: url('drinking_water.mcobj');
+	offset-height: 1;
+}
+
+area[amenity=fountain], area[leisure=swimming_pool] {
+	block: iron;
+	level-height: 1;
+	fill-bottom: water;
+	offset-height: 1;
+}
+
+node[amenity=bench] {
+	block: wood_spruce_stairs;
+	offset-height: 1;
+	level-height: 1;
+}
+
+node[amenity=recycling][recycling_type=container] {
+	object: url('container.mcobj');
+	offset-height: 1;
+}
+
+/*
+ * Public transport
+ */
+node[public_transport=platform], node[amenity=bus_stop] {
+	object: url('bus_stop.mcobj');
+	offset-height: 1;
+}
+
+/*
+ * Barrier
+ */
+*[barrier] {
+	offset-height: 1;
+}
+
+line[barrier=wall], line[barrier=guard_rail], node[barrier=bollard] {
+	block: fence;
+}
+
+line[barrier=city_wall], line[barrier=retaining_wall], line[barrier=wall] {
+	block: cobblestone;
+	level-height: 2;
+	offset-height: 0;
+}
+
+line[barrier=fence] {
+	block: fence;
+	level-height: 1;
+}
+
+line[barrier=guard_rail] {
+	block: fence;
+}
+
+line[barrier=ditch] {
+	offset-height: 0;
+	block: water;
+}
+
+line[barrier=hedge] {
+	block: leaves;
+	level-height: 2;
+	offset-height: 0;
+}
+
+node[barrier=gate] {
+	block: air;
+	level-height: 1;
+}
+
+node[barrier=block] {
+	block: stone;
+}
+
+node[barrier=debris] {
+	block: dirt;
+	width: 3;
+}
+
+/*
+ * Leisure
+ */
+area[leisure=pitch] {
+	block: fence;
+	offset-height: 1;
+}
+
+/*
+ * Man made
+ */
+line[man_made=breakwater] {
+	block: clay;
+	level-height: 1;
+}
+
+node[man_made=flagpole] {
+	block: fence;
+	offset-height: 1;
+	level-height: 3;
+}
+
+line[man_made=pier] {
+	block: wood;
+	width: 2;
+}
+
+area[man_made=pier] {
+	fill-bottom: wood;
+}
+
+node[man_made=mast] {
+	object: url('mast.mcobj');
+	offset-height: 1;
+}
+
+/*
+ * Natural
+ */
+node[natural=tree] {
+	object: url('tree.mcobj');
+	offset-height: 1;
+}
+
+line[natural=tree_row] {
+	object: url('tree.mcobj') 6;
+	offset-height: 1;
+}
+
+area[natural=bare_rock] {
+	block: bedrock;
+	fill-bottom: bedrock;
+}
+
+area[natural=sand], area[natural=beach] {
+	block: sand;
+	fill-bottom: sand;
+}
+
+line[natural=coastline] {
+	block: water;
+}
+
+area[natural=glacier] {
+	block: ice;
+	fill-bottom: ice;
+}
+
+node[natural=volcano] {
+	width: 10;
+	block: lava;
+}
+
+node[natural=stone] {
+	block: stone;
+	level-height: 2;
+	width: 2;
+}
+
+/*
+ * Power
+ */
+node[power=tower] {
+	object: url('power_tower.mcobj');
+}
+
+node[power=pole] {
+	object: url('power_pole.mcobj');
+	offset-height: 1;
+}
+
+node[power=generator][generator:source=wind] {
+	object: url('power_wind.mcobj');
+}
+
+area[power=substation] {
+	offset-height: 1;
+	block: fence;
+}
+
+/*
+ * Railway
+ */
+line[railway] {
+	width: 1;
+	block: rail;
+	offset-height: 1;
+}
+
+line[railway=abandoned] {
+	block: gravel;
+	offset-height: 0;
+}
+
+node[railway=buffer_stop] {
+	block: iron;
+	offset-height: 1;
+}
+
+/*
+ * Tourism
+ */
+node[tourism=picnic_site] {
+	object: url('picnic_table.mcobj');
+	offset-height: 1;
+}
+
+area[tourism=picnic_site] {
+	fill-object: url('picnic_table.mcobj') 4;
+	offset-height: 1;
+}
+
+/*
+ * Other
+ */
+node[traffic_sign=city_limit] {
+	text: name;
+	block: sign_post;
+	offset-height: 1; /* This block should appear on the floor, not as the same level as floor blocks */
+}

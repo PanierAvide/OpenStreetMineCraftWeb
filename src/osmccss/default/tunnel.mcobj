@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<mcobject name="Road tunnel" version="1" fill-with-air="yes">
+	<mcy val="0">
+		<mcx val="0">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="1">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="2">
+			<mcz val="0" block="iron" />
+			<mcz val="1" block="iron" />
+			<mcz val="2" block="iron" />
+			<mcz val="3" block="iron" />
+			<mcz val="4" block="iron" />
+		</mcx>
+		<mcx val="3">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="4">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+	</mcy>
+	<mcy val="1">
+		<mcx val="0">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="2">
+			<mcz val="2" block="torch" />
+		</mcx>
+		<mcx val="4">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+	</mcy>
+	<mcy val="2">
+		<mcx val="0">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="4">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+	</mcy>
+	<mcy val="3">
+		<mcx val="0">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="4">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+	</mcy>
+	<mcy val="4">
+		<mcx val="0">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="1">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="2">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="3">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+		<mcx val="4">
+			<mcz val="0" block="stone" />
+			<mcz val="1" block="stone" />
+			<mcz val="2" block="stone" />
+			<mcz val="3" block="stone" />
+			<mcz val="4" block="stone" />
+		</mcx>
+	</mcy>
+</mcobject>

@@ -1,0 +1,30 @@
+= OpenStreeMineCraft Web =
+== Requirements ==
+
+Before you start to install OpenStreetMineCraft Web, check these requirements.
+
+* Make sure you have installed the core tool OpenStreetMineCraft.
+* Check if your OSM2PGSQL style file contains the attributes listed in res/default.style. You can use directly this file.
+  If you don't want to change your default.style file, you have to edit the OSMCCSS (src/osmccss/default/style.osmccss) to make
+  it fit to your database.
+* You have a working web server, with PHP and PHP CURL extension installed.
+
+== Install ==
+
+To make OpenStreeMineCraft available on your own web server, you have to follow these instructions.
+
+* Place all the content of src/ folder in the destination directory of your server (probably under /var/www/html).
+
+* Edit the res/osmcd.service file
+** Change this line : ''user=adrien'' by the web server system user (probably apache)
+** Change the access path to the src/render.php file
+** You may also have to change the command of PHP, replace /usr/bin/php by your own
+* Move the osmcd.service file in /etc/systemd/system/multi-user.target.wants/
+* Reload system daemons to add osmcd service, as root : ''systemctl daemon-reload''
+
+* Edit src/config.php file, to make it fit to your system configuration.
+
+* Enable the osmcd service at start-up, as root : ''systemctl enable osmcd.service''
+* Start the osmcd service, as root : ''systemctl start osmcd.service''
+
+And it's done, your website is ready.

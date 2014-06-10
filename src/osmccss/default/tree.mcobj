@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<mcobject name="Tree" version="1">
+	<mcx val="0">
+		<mcz val="0">
+		</mcz>
+		<mcz val="1">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+		<mcz val="4">
+		</mcz>
+	</mcx>
+	<mcx val="1">
+		<mcz val="0">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="3" block="leaves" />
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+			<mcy val="6" block="leaves" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="3" block="leaves" />
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+			<mcy val="6" block="leaves" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="3" block="leaves" />
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+			<mcy val="6" block="leaves" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+	</mcx>
+	<mcx val="2">
+		<mcz val="0">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="3" block="leaves" />
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+			<mcy val="6" block="leaves" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="wood" />
+			<mcy val="1" block="wood" />
+			<mcy val="2" block="wood" />
+			<mcy val="3" block="wood" />
+			<mcy val="4" block="wood" />
+			<mcy val="5" block="leaves" />
+			<mcy val="6" block="leaves" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="3" block="leaves" />
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+			<mcy val="6" block="leaves" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+	</mcx>
+	<mcx val="3">
+		<mcz val="0">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="3" block="leaves" />
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+			<mcy val="6" block="leaves" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="3" block="leaves" />
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+			<mcy val="6" block="leaves" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="3" block="leaves" />
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+			<mcy val="6" block="leaves" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+	</mcx>
+	<mcx val="4">
+		<mcz val="0">
+		</mcz>
+		<mcz val="1">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="4" block="leaves" />
+			<mcy val="5" block="leaves" />
+		</mcz>
+		<mcz val="4">
+		</mcz>
+	</mcx>
+</mcobject>

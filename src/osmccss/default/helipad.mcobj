@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<mcobject name="Helipad" version="1">
+	<mcx val="0">
+		<mcz val="0">
+		</mcz>
+		<mcz val="1">
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="8">
+		</mcz>
+		<mcz val="9">
+		</mcz>
+	</mcx>
+	<mcx val="1">
+		<mcz val="0">
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="8">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="9">
+		</mcz>
+	</mcx>
+	<mcx val="2">
+		<mcz val="0">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="8">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="9">
+			<mcy val="0" block="iron" />
+		</mcz>
+	</mcx>
+	<mcx val="3">
+		<mcz val="0">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="8">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="9">
+			<mcy val="0" block="iron" />
+		</mcz>
+	</mcx>
+	<mcx val="4">
+		<mcz val="0">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="8">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="9">
+			<mcy val="0" block="iron" />
+		</mcz>
+	</mcx>
+	<mcx val="5">
+		<mcz val="0">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="8">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="9">
+			<mcy val="0" block="iron" />
+		</mcz>
+	</mcx>
+	<mcx val="6">
+		<mcz val="0">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="8">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="9">
+			<mcy val="0" block="iron" />
+		</mcz>
+	</mcx>
+	<mcx val="7">
+		<mcz val="0">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="8">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="9">
+			<mcy val="0" block="iron" />
+		</mcz>
+	</mcx>
+	<mcx val="8">
+		<mcz val="0">
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="stone" />
+		</mcz>
+		<mcz val="8">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="9">
+		</mcz>
+	</mcx>
+	<mcx val="9">
+		<mcz val="0">
+		</mcz>
+		<mcz val="1">
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="3">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="4">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="5">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="6">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="7">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="8">
+		</mcz>
+		<mcz val="9">
+		</mcz>
+	</mcx>
+</mcobject>

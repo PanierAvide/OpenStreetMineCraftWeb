@@ -1,0 +1,15 @@
+= OpenStreetMineCraft Web =
+== To-do ==
+=== Short term ===
+* Server status page (last data import date)
+* Encryption of e-mail addresses
+
+=== Mid term ===
+* Be able to define a precise polygon for server bounds
+* Delete old examples (Timeout in config)
+* Check if area is in defined bounds
+* Write documentation (install)
+* Add project URL on about page
+
+=== Long term ===
+* Translation system

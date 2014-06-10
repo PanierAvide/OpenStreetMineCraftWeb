@@ -1,0 +1,33 @@
+/*
+ * CSS Style
+ * Copyright (c) 2014 Adrien PAVIE.
+ */
+
+#map {
+	height: 300px;
+}
+
+.map-examples {
+	height: 250px;
+}
+
+.map-info {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.container-bordered {
+	padding-top: 20px;
+}
+
+.img-home {
+	text-align: center;
+}
+
+.img-home img {
+	max-height: 200px;
+}
+
+.bs-example:after {
+	content: "Question";
+}

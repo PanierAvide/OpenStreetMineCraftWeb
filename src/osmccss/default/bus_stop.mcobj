@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mcobject name="Bus stop" version="1">
+	<mcx val="0">
+		<mcz val="0">
+			<mcy val="0" block="fence" />
+			<mcy val="1" block="fence" />
+			<mcy val="2" block="wood" />
+		</mcz>
+	</mcx>
+</mcobject>

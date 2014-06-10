@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<mcobject name="Drinking water" version="1">
+	<mcx val="0">
+		<mcz val="1">
+			<mcy val="0" block="iron" />
+		</mcz>
+	</mcx>
+	<mcx val="1">
+		<mcz val="0">
+			<mcy val="0" block="iron" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="water" />
+		</mcz>
+		<mcz val="2">
+			<mcy val="0" block="iron" />
+		</mcz>
+	</mcx>
+	<mcx val="2">
+		<mcz val="1">
+			<mcy val="0" block="iron" />
+		</mcz>
+	</mcx>
+</mcobject>

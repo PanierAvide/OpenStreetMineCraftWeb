@@ -1,0 +1,9 @@
+[Unit]
+Description=OpenStreetMineCraft Rendering Daemon
+
+[Service]
+User=adrien
+ExecStart=/usr/bin/php -f /home/adrien/www/html/osmc/render.php launcher
+
+[Install]
+WantedBy=multi-user.target

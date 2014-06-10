@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<mcobject name="Picnic table" version="1">
+	<mcx val="0">
+		<mcz val="0">
+			<mcy val="0" block="fence" />
+			<mcy val="1" block="pressure_plate_wood" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="fence" />
+			<mcy val="1" block="pressure_plate_wood" />
+		</mcz>
+	</mcx>
+	<mcx val="1">
+		<mcz val="0">
+			<mcy val="0" block="fence" />
+			<mcy val="1" block="pressure_plate_wood" />
+		</mcz>
+		<mcz val="1">
+			<mcy val="0" block="fence" />
+			<mcy val="1" block="pressure_plate_wood" />
+		</mcz>
+	</mcx>
+</mcobject>

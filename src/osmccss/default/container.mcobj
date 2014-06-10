@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<mcobject name="Recycling container" version="1">
+	<mcx val="0">
+		<mcz val="0">
+			<mcy val="0" block="clay_stained" nibble="13" />
+			<mcy val="1" block="dispenser" nibble="2" />
+		</mcz>
+	</mcx>
+</mcobject>

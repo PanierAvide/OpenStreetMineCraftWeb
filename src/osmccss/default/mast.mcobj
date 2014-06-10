@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<mcobject name="Mast" version="1">
+	<mcx val="0">
+		<mcz val="0">
+			<mcy val="0" block="fence" />
+			<mcy val="1" block="fence" />
+			<mcy val="2" block="fence" />
+			<mcy val="3" block="fence" />
+			<mcy val="4" block="fence" />
+			<mcy val="5" block="fence" />
+			<mcy val="6" block="fence" />
+			<mcy val="7" block="fence" />
+			<mcy val="8" block="fence" />
+			<mcy val="9" block="fence" />
+			<mcy val="10" block="iron" />
+		</mcz>
+	</mcx>
+</mcobject>
