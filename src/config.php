@@ -18,7 +18,7 @@ define("MAP_MAXLON", -1.0145379);	//Maximal longitude
  * You should write the absolute path to access it.
  * You can also define some JVM options if you want, but all have to be before the "-jar /path/to/osmc.jar" option.
  */
-define("OSMC_CMD", "java -jar /path/to/osmc.jar");
+define("OSMC_CMD", "java -server -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=2 -XX:+AggressiveOpts -Xmx2G -jar /path/to/osmc.jar");
 
 /*
  * Your PostGis database connection information.
